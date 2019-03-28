@@ -32,13 +32,13 @@ export default About
 
 &nbsp;
 
-- [x]  Supports props:
+#### Supports props:
 
   ```js
   <div>Hi my name is {props.name}</div>
   ```
 
-- [x] Supports local variables:
+#### Supports local variables:
 
   ```js
   const name = "Sid";
@@ -47,7 +47,7 @@ export default About
   ```
 
 
-- [x] Supports imports:
+#### Supports imports:
 
   ```js
   import Input from './input';
@@ -58,7 +58,7 @@ export default About
   </form>
   ```
 
-- [x] Can be imported into other files
+#### Can be imported into other files
 
   my-input.js
   ```js
@@ -77,7 +77,7 @@ export default About
 
 &nbsp;
 
-#### usage
+### Usage
 
 1. Install dependency
 
@@ -104,12 +104,12 @@ It might be possible to write a [babel macro](https://github.com/kentcdodds/babe
 
 &nbsp;
 
-#### like it?
+### like it?
 
 :star: this repo
 
 &nbsp;
 
-#### license
+### license
 
 MIT © [siddharthkp](https://github.com/siddharthkp)
