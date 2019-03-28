@@ -1,0 +1,17 @@
+{
+  "name": "babel-plugin-jsxo",
+  "version": "0.0.1",
+  "description": "JSX only files",
+  "main": "index.js",
+  "keywords": [
+    "jsxo",
+    "jsx only",
+    "babel"
+  ],
+  "author": "siddharthkp",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.camelcase": "^4.3.0",
+    "lodash.capitalize": "^4.2.1"
+  }
+}

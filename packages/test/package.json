@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-plugin-jsxo": "0.0.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-plugin-tester": "6.0.1",
+    "jest": "^24.5.0",
+    "prettier": "^1.16.4"
+  }
+}

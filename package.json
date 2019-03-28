@@ -1,0 +1,10 @@
+{
+  "name": "jsxo",
+  "private": "true",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "test": "npm run test:plugin && npm run test:app",
+    "test:plugin": "cd packages/test && npm test",
+    "test:app": "cd packages/demo && npm test"
+  }
+}
