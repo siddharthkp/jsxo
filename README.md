@@ -3,7 +3,7 @@
   <br/><br/>
   <b>JSXonly files</b>
   <br/><br/>
-  <img src="https://travis-ci.org/siddharthkp/jsxo.svg?branch=master&maxAge=3600"/> <img src="https://sid.studio/dx-badge.svg"/>
+  <a href="https://travis-ci.org/siddharthkp/jsxo"><img src="https://travis-ci.org/siddharthkp/jsxo.svg?branch=master&maxAge=3600"/></a> <img src="https://sid.studio/dx-badge.svg"/>
 </p>
 
 &nbsp;
@@ -15,7 +15,7 @@ Sometimes I need the power of components but miss the simplicity of writing HTML
 A file named `about.js`
 
 ```js
-<div>Hi, I'm Sid</div>
+<div>Hi, My name is Sid</div>
 ```
 
 will be transpiled to:
@@ -24,7 +24,7 @@ will be transpiled to:
 import React from 'react'
 
 function About(props) {
-  return <div>Hi I'm Sid</div>
+  return <div>Hi, my name is Sid</div>
 }
 
 export default About
@@ -35,15 +35,15 @@ export default About
 - [x]  Supports props:
 
   ```js
-  <div>Hi, I'm {props.name}</div>
+  <div>Hi my name is {props.name}</div>
   ```
 
-- [x] Supports variables:
+- [x] Supports local variables:
 
   ```js
   const name = "Sid";
 
-  <div>Hi, I'm {props.name}</div>
+  <div>Hi my name is {name}</div>
   ```
 
 
