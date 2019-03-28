@@ -1,7 +1,7 @@
 <p align="center">
   <img src="/logo.png" />
   <br/><br/>
-  <b>JSXonly files</b>
+  <b>Babel plugin that lets you create files with JSX only</b>
   <br/><br/>
   <a href="https://travis-ci.org/siddharthkp/jsxo"><img src="https://travis-ci.org/siddharthkp/jsxo.svg?branch=master&maxAge=3600"/></a> <img src="https://sid.studio/dx-badge.svg"/>
 </p>
