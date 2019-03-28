@@ -1,21 +1,17 @@
 {
   "name": "minimal-react-webpack-babel-setup",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
-    "babel-plugin-jsxo": "0.0.1",
+    "babel-plugin-jsxo": "0.0.2",
     "jest": "^24.5.0",
     "react-hot-loader": "^4.3.11",
     "react-testing-library": "^6.0.3",

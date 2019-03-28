@@ -1,8 +1,11 @@
 {
   "name": "babel-plugin-jsxo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JSX only files",
   "main": "index.js",
+  "scripts": {
+    "prepare": "cp ../../README.md ."
+  },
   "keywords": [
     "jsxo",
     "jsx only",

@@ -10,15 +10,19 @@
 
 Babel plugin that lets you write files with _JSX only_ and converts them into components at compile time.
 
-Sometimes I need the power of components but miss the simplicity of writing HTML files. This is a sweet "let the bots do the work" solution.
+Sometimes I need the power of components but miss the simplicity of writing HTML files. (especially for presentation components).
 
-A file named `about.js`
+This is a _let the bots do the work_ solution.
+
+&nbsp;
+
+You can create a file called `about.js` and put only the JSX you need, feels like HTML ❤️
 
 ```js
 <div>Hi, My name is Sid</div>
 ```
 
-will be transpiled to:
+This will be transpiled to:
 
 ```js
 import React from 'react'
@@ -29,6 +33,8 @@ function About(props) {
 
 export default About
 ```
+
+That component name is picked up from the file name.
 
 &nbsp;
 
@@ -60,12 +66,12 @@ export default About
 
 #### Can be imported into other files
 
-  my-input.js
+  `my-input.js`
   ```js
   <input type="text" {...props} />
   ```
 
-  form.js:
+  `form.js`
   ```js
   import Input from './my-input';
 
@@ -79,26 +85,26 @@ export default About
 
 ### Usage
 
-1. Install dependency
+Step 1. Install dependency
 
-  ```
-  npm install babel-plugin-jsxo --dev
+    ```
+    npm install babel-plugin-jsxo --dev
 
-  yarn add babel-plugin-jsxo --dev
-  ```
+    yarn add babel-plugin-jsxo --dev
+    ```
 
-2. Drop it in your `babel` config as a plugin
+Step 2. Drop it in your `babel` config as a plugin
 
-  ```js
-  {
-    "presets": ["@babel/preset-react"],
-    "plugins": ["jsxo"]
-  }
-  ```
+    ```js
+    {
+      "presets": ["@babel/preset-react"],
+      "plugins": ["jsxo"]
+    }
+    ```
 
 &nbsp;
 
-#### usage with create-react-app
+#### Usage with create-react-app
 
 It might be possible to write a [babel macro](https://github.com/kentcdodds/babel-plugin-macros) for this, I'm not sure 🤷
 
