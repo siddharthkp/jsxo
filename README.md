@@ -87,20 +87,20 @@ That component name is picked up from the file name.
 
 Step 1. Install dependency
 
-    ```
-    npm install babel-plugin-jsxo --dev
+```
+npm install babel-plugin-jsxo --dev
 
-    yarn add babel-plugin-jsxo --dev
-    ```
+yarn add babel-plugin-jsxo --dev
+```
 
 Step 2. Drop it in your `babel` config as a plugin
 
-    ```js
-    {
-      "presets": ["@babel/preset-react"],
-      "plugins": ["jsxo"]
-    }
-    ```
+```js
+{
+  "presets": ["@babel/preset-react"],
+  "plugins": ["jsxo"]
+}
+```
 
 &nbsp;
 
