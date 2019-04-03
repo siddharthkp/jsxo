@@ -1,3 +1,3 @@
 ;<div>
-  <span>{props.name}</span>
+  <a href={props.href}>{props.children}</a>
 </div>

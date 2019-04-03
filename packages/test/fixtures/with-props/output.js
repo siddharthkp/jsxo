@@ -3,7 +3,13 @@ function Code(props) {
   return React.createElement(
     'div',
     null,
-    React.createElement('span', null, props.name)
+    React.createElement(
+      'a',
+      {
+        href: props.href
+      },
+      props.children
+    )
   )
 }
 
