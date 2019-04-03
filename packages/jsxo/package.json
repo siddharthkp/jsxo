@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-jsxo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JSX only files",
   "main": "index.js",
   "scripts": {
