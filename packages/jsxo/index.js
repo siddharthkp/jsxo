@@ -8,7 +8,6 @@ module.exports = ({ types: t }) => {
     visitor: {
       Function: (path, state) => {
         // if file already has a function, ignore
-
         // TODO: This will also catch functions that are
         //       React components which is silly
         state.file.set('ignore', true)
@@ -34,8 +33,8 @@ module.exports = ({ types: t }) => {
           t.blockStatement([t.returnStatement(path.node)]) // body
         )
 
-        // replace parent with Component
-        path.parentPath.replaceWith(functionDeclaration)
+        // replace JSX Element with Component
+        path.replaceWithMultiple([functionDeclaration])
       },
       Program: {
         enter: (path, state) => {

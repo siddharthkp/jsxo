@@ -1,3 +1,1 @@
-;<div>
-  <a href={props.href}>{props.children}</a>
-</div>
+;<a href={props.href}>{props.children}</a>
