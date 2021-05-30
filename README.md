@@ -16,6 +16,8 @@ This is a _let the bots do the work_ solution.
 
 &nbsp;
 
+#### Example: 
+
 You can create a file called `about.js` and put only the JSX you need, feels like HTML ❤️
 
 ```js
